@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B74C00331BF6473600798CCE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B74C00321BF6473600798CCE /* main.cpp */; };
+		B74C003A1BF647F900798CCE /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74C00391BF647F900798CCE /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		B74C002F1BF6473600798CCE /* testc++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "testc++"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B74C00321BF6473600798CCE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B74C00321BF6473600798CCE /* main.cpp */ = {isa = PBXFileReference; explicitFileType = text.script.php; path = main.cpp; sourceTree = "<group>"; };
+		B74C00391BF647F900798CCE /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		B74C00261BF6473600798CCE = {
 			isa = PBXGroup;
 			children = (
+				B74C00391BF647F900798CCE /* File.swift */,
 				B74C00311BF6473600798CCE /* testc++ */,
 				B74C00301BF6473600798CCE /* Products */,
 			);
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B74C00331BF6473600798CCE /* main.cpp in Sources */,
+				B74C003A1BF647F900798CCE /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
